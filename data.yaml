@@ -1,0 +1,10 @@
+# Caminho para as pastas de dados, relativo a este arquivo .yaml
+# Atenção: não use a barra inicial '/'
+train: dataset/images/train
+val: dataset/images/val
+
+# Número de classes (só temos uma: telhado)
+nc: 1
+
+# Nomes das classes, na ordem correta (índice 0 = telhado)
+names: ['telhado']

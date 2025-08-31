@@ -1,0 +1,20 @@
+# Pasta do ambiente virtual (essencial ignorar)
+.venv/
+venv/
+
+# Pasta de resultados do YOLO (modelos treinados e logs)
+runs/
+
+# Pasta de dados (imagens grandes)
+dataset/
+
+# Arquivos de resultado, temporários e baixados
+resultado_teste.jpg
+*.zip
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Arquivos de sistema do macOS
+.DS_Store

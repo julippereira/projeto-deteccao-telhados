@@ -1,0 +1,21 @@
+# Pasta do ambiente virtual - NUNCA ENVIE ISSO!
+.venv/
+venv/
+
+# Arquivos de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Pasta de resultados do YOLO - Modelos treinados são grandes
+runs/
+
+# Arquivos de sistema do macOS
+.DS_Store
+
+# Arquivos de configuração de IDEs (opcional)
+.idea/
+.vscode/
+
+# Imagens de teste geradas
+resultado_teste.jpg
